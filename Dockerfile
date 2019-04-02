@@ -6,4 +6,3 @@ RUN apk add --no-cache --virtual .build-deps \
     && ./buildit.sh \
     && rm ./buildit.sh \
     && apk del .build-deps
-RUN ls -alh /usr/share/nginx/html/
