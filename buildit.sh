@@ -10,7 +10,7 @@ cat << EOF > ./${1^^}.html
   <meta charset="UTF-8">
   <title>${2^^} - (╯°□°）╯︵ ┻━┻ </title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://static-errors.xophe.eu/css/style.css">
 </head>
 <body>
 <div class="error-page">
@@ -21,7 +21,7 @@ cat << EOF > ./${1^^}.html
 </div>
 <div id="particles-js"></div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
-    <script  src="js/index.js"></script>
+    <script  src="https://static-errors.xophe.eu/js/index.js"></script>
 </body>
 </html>
 EOF
